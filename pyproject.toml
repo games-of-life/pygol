@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygol"
+version = "0.0.1"
+dependencies = [
+    "raylib > 4.5.0"
+]
