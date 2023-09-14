@@ -7,7 +7,7 @@ HEIGHT = 600
 BOX_DIMENSION = 10
 
 pr.init_window(WIDTH, HEIGHT, "Game of life")
-pr.set_target_fps(30)
+# pr.set_target_fps(30)
 
 box_width = WIDTH // BOX_DIMENSION
 box_height = HEIGHT // BOX_DIMENSION
