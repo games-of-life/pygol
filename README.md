@@ -17,5 +17,5 @@ Before compiling you can choose the implementation by setting either `VectorGrid
 To run program:
 
 ```console
-python3 src/pygol
+python3 pygol
 ```
