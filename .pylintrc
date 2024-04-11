@@ -1,0 +1,9 @@
+[MESSAGES CONTROL]
+
+disable=missing-function-docstring,
+        missing-module-docstring,
+        missing-class-docstring
+
+[MASTER]
+
+init-hook='import sys; sys.path.append("./pygol")'

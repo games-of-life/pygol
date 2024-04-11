@@ -7,7 +7,7 @@ All graphics done with [Raylib](https://www.raylib.com/)
 ## Installation
 
 ```console
-pip install raylib
+poetry install
 ```
 
 ## Usage
@@ -17,5 +17,5 @@ Before compiling you can choose the implementation by setting either `VectorGrid
 To run program:
 
 ```console
-python3 pygol
+poetry run python pygol/
 ```

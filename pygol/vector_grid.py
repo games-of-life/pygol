@@ -1,5 +1,6 @@
-from abstract_grid import AbstractGrid, CellState
 from random import random
+
+from abstract_grid import AbstractGrid, CellState
 
 
 class VectorGrid(AbstractGrid):

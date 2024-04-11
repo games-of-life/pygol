@@ -1,7 +1,8 @@
-from abstract_grid import AbstractGrid, CellState
-from random import randint
-from itertools import product, chain
 from collections import Counter
+from itertools import chain, product
+from random import randint
+
+from abstract_grid import AbstractGrid, CellState
 
 
 class SetGrid(AbstractGrid):

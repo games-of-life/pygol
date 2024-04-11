@@ -1,10 +1,17 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[project]
+[tool.poetry]
 name = "pygol"
-version = "0.0.1"
-dependencies = [
-    "raylib > 4.5.0"
-]
+version = "0.1.0"
+authors = ["Ilya Savitsky <ipsavitsky234@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+raylib = "^5.0.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^3.1.0"
+black = "^24.3.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

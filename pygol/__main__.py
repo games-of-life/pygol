@@ -9,17 +9,17 @@ BOX_DIMENSION = 10
 pr.init_window(WIDTH, HEIGHT, "Game of life")
 # pr.set_target_fps(30)
 
-box_width = WIDTH // BOX_DIMENSION
-box_height = HEIGHT // BOX_DIMENSION
+BOX_WIDTH = WIDTH // BOX_DIMENSION
+BOX_HEIGHT = HEIGHT // BOX_DIMENSION
 
-grid = SetGrid(box_width, box_height, 0.5)
+grid = SetGrid(BOX_WIDTH, BOX_HEIGHT, 0.5)
 
 while not pr.window_should_close():
     pr.begin_drawing()
     pr.clear_background(pr.BLACK)
 
-    for i in range(box_width):
-        for j in range(box_height):
+    for i in range(BOX_WIDTH):
+        for j in range(BOX_HEIGHT):
             pr.draw_rectangle(
                 BOX_DIMENSION * i,
                 BOX_DIMENSION * j,
